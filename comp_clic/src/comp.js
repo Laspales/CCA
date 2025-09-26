@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const SERVER_ENABLED = false; // passer à true si tu veux appeler le backend Flask (voir plus bas)
+const SERVER_ENABLED = true; 
 
 export default function Counter() {
   const [count, setCount] = useState(() => {
